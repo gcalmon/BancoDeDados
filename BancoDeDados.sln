@@ -7,12 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoDeDados.Playground", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoDeDados.Infra", "BancoDeDados.Infra\BancoDeDados.Infra.csproj", "{4D1A8A5C-3C11-4C94-98C4-E14DA4564356}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1DF3B87B-A4B3-466A-953F-D8FC98052EBC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{074D5F64-E101-4705-BC1E-994D5FC10AFB}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoDeDados.Web", "BancoDeDados.Web\BancoDeDados.Web.csproj", "{37DEF914-403F-46A3-B4DC-40C9C5DE586B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{4D1A8A5C-3C11-4C94-98C4-E14DA4564356}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D1A8A5C-3C11-4C94-98C4-E14DA4564356}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D1A8A5C-3C11-4C94-98C4-E14DA4564356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37DEF914-403F-46A3-B4DC-40C9C5DE586B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37DEF914-403F-46A3-B4DC-40C9C5DE586B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37DEF914-403F-46A3-B4DC-40C9C5DE586B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37DEF914-403F-46A3-B4DC-40C9C5DE586B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

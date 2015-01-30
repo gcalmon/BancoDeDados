@@ -1,9 +1,9 @@
-﻿using System;
+﻿using FluentNHibernate.Mapping;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using FluentNHibernate.Mapping;
 
 namespace BancoDeDados.Infra.Persistencia.NH
 {
@@ -16,7 +16,7 @@ namespace BancoDeDados.Infra.Persistencia.NH
 
             this.Map(m => m.Nome)
                 .Not.Nullable()
-                .Length(40);
+                .Length(30);
 
             this.Map(m => m.Email);
 
